@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'BaskervilleOldFacD';
+  src: url("../fonts/baskervilleoldfacd.otf");
+}
+
+body {
+  margin: 0;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 25px;
+}
+
+.banner__logo {
+  width: 20%;
+  padding-left: 7em;
+}
+
+.banner__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 48%;
+  padding-right: 1em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner__menu__item {
+  font-size: 15px;
+  font-family: 'BaskervilleOldFacD';
+}
+/*# sourceMappingURL=main.css.map */

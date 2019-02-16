@@ -1,0 +1,37 @@
+@font-face{
+    font-family:'BaskervilleOldFacD';
+    src: url("../fonts/baskervilleoldfacd.otf");
+}
+
+body{
+    margin: 0;
+}
+
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+
+
+        &__logo{
+           width: 20%; 
+           padding-left: 7em;
+        }
+            &__menu{
+                display: flex;
+                list-style: none;
+                flex-direction: row;
+                width: 48%; 
+                padding-right:1em;
+                justify-content: space-between;
+                align-items: center;
+
+                &__item{
+                    font-size: 15px;
+                    font-family: 'BaskervilleOldFacD';
+                }
+            }
+}
